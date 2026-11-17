@@ -37,8 +37,8 @@ public class website_exam {
 	    else {
 	    	System.out.println("not dispalyed");
 	    }
-	    
-	    FileHandler s =((TakesScreenshot)driver).getScreenshotAs("C:\\Users\\sreel\\OneDrive\\Desktop\\Selenium Exam\\exam.png");
+	     TakesScreenshot s= ((TakesScreenshot)driver);
+	    FileHandler s1 =((TakesScreenshot)driver).getScreenshotAs("C:\\Users\\sreel\\OneDrive\\Desktop\\Selenium Exam\\exam.png");
 	    
 	}
 	@Test(priority=3)
